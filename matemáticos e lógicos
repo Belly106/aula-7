@@ -1,0 +1,25 @@
+// === compara - igual 
+// !== diferente 
+// > maior
+// < menor
+// <= menor e diferente 
+// > maior e difernte
+console.log("A é igual a B?", (a === b));
+console.log("A é diferente que B?", (a !== b));
+
+//operadores lógicos
+// operador E: &&
+// operador OU: ||
+//operador NOT: ! ( inverte o resultado)
+
+
+let nome = prompt ("Qual seu nome?");
+let anoNascimento = prompt (" qual seu ano de nascimento?");
+let anoAtual = prompt (" ano atual");
+
+console.log( "Nome:", nome);
+console.log("Idade", (anoAtual - anoNascimento));
+console.log("É maior de idade?" ((anoAtual - anoNascimento)>= 18));
+console.log("idade que teria em 2050?" (( 2050 - anoNascimento)));
+
+
